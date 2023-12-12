@@ -38,7 +38,8 @@ if prompt := st.chat_input():
         llm = ChatOpenAI(openai_api_key=openai.api_key, 
                          streaming=True, 
                          #model = "gpt-3.5-turbo-0613",
-                         model = "gpt-4",
+                         #model = "gpt-4",
+                         model = "gpt-4-1106-preview",
                          callbacks=[stream_handler])
         response = llm(st.session_state.messages)
         st.session_state.messages.append(ChatMessage(role="assistant", content=response.content))
