@@ -5,7 +5,7 @@ import openai
 import streamlit as st
 import prompts
 
-st.image('images/logo.png', width=300)
+#st.image('images/logo.png', width=300)
 st.title("Project Pulse AI")
 
 
