@@ -13,4 +13,4 @@ This project requires Python 3.6+ and Streamlit.
 You can install the project and its dependencies with:
 
 ```bash
-pip install streamlit openai
+pip install -r requirements.txt
